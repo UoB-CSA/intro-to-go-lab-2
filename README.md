@@ -2,7 +2,7 @@
 
 > If you're stuck look at examples on [Go by Example](https://gobyexample.com/)
 
-## Go concurrency syntax recap
+## Go concurrency syntax
 
 ```go
 go someFunc()
