@@ -2,6 +2,14 @@
 
 > If you're stuck look at examples on [Go by Example](https://gobyexample.com/)
 
+# Using the lab sheet
+
+There are two ways to use the lab sheet, you can either:
+
+- [create a new repo from this template](https://github.com/UoB-CSA/intro-to-go-lab-2/generate) - **this is the recommended way**
+- download a [zip file](https://github.com/UoB-CSA/intro-to-go-lab-2/archive/master.zip)
+
+
 ## Go concurrency syntax
 
 ```go
