@@ -9,6 +9,13 @@ There are two ways to use the lab sheet, you can either:
 - [create a new repo from this template](https://github.com/UoB-CSA/intro-to-go-lab-2/generate) - **this is the recommended way**
 - download a [zip file](https://github.com/UoB-CSA/intro-to-go-lab-2/archive/master.zip)
 
+Each question is rated to help you balance your work:
+
+- :red_circle::white_circle::white_circle::white_circle::white_circle: - Easy, strictly necessary.
+- :red_circle::red_circle::white_circle::white_circle::white_circle: - Medium, still necessary.
+- :red_circle::red_circle::red_circle::white_circle::white_circle: - Hard, necessary if you're aiming for higher marks.
+- :red_circle::red_circle::red_circle::red_circle::white_circle: - Hard, useful for coursework extensions.
+- :red_circle::red_circle::red_circle::red_circle::red_circle: - Hard, beyond what you need for any part of the coursework.
 
 ## Go concurrency syntax
 
@@ -54,7 +61,7 @@ receiveOnly <-chan int
 
 Channel of type `<-chan` is receive-only. Sending a message to a channel of that type will cause a compiler error.
 
-## Question 1 - Messages
+## Question 1 - Messages :red_circle::white_circle::white_circle::white_circle::white_circle:
 
 ### Question 1a
 
@@ -85,7 +92,7 @@ Run the program and explain how the result differs compared to the original solu
 
 Watch the [video on 'Debugging with Delve'](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2020_TB-1/CONTENT_2020/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4) and play around with some of the debug commands on the programs that you have written in Lab 1.
 
-## Question 2 - Ping Pong
+## Question 2 - Ping Pong :red_circle::white_circle::white_circle::white_circle::white_circle:
 
 ### Question 2a
 
@@ -164,7 +171,7 @@ If your ping-pong code is correct your trace should look very similar to the one
 
 </details>
 
-## Question 3 - for-select
+## Question 3 - for-select :red_circle::white_circle::white_circle::white_circle::white_circle:
 
 Sometimes we do not know which channel to receive from. The example program `select.go` illustrates this problem. We have two goroutines: `fastSender` and `slowSender`. In `main` we would like to receive all messages from the two goroutines but we do not know when each message arrives. A select statement is a solution to this problem. Given a list of cases it will wait until it finds one that can be executed and then it will run the code after the `:` . In this program the two possible cases are "string received from `strings`" and "integer received from `ints`" :
 
@@ -252,7 +259,7 @@ Run the program and explain the output.
 
 Create traces for all versions of the select program and explain how they correspond to the code you have written.
 
-## Question 4 - Quiz
+## Question 4 - Quiz :red_circle::red_circle::white_circle::white_circle::white_circle:
 
 Open `quiz.go`. It's a sample solution to the quiz task that you might remember from lab 1. Today we will explore advanced concurrency concepts and language features to improve our quiz.
 
