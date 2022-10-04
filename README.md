@@ -150,7 +150,7 @@ Running your `ping.go` should have generated a `trace.out` file. You can open th
 
 Explain how the trace relates to the code you have written.
 
-**WATCH THE VIDEO ON TRACING IN GO** - it is available on Blackboard
+**WATCH THE VIDEO ON TRACING IN GO** - [it is available on Blackboard](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/TracingInGo/HowToMakeAtraceOfMultipleThreads.mp4)
 
 <details>
     <summary>Hint</summary>
