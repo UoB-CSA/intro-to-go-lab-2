@@ -90,7 +90,7 @@ Run the program and explain how the result differs compared to the original solu
 
 ### **EXTRA** Question 1e
 
-Watch the [video on 'Debugging with Delve'](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4) and play around with some of the debug commands on the programs that you have written in Lab 1.
+Watch the [video on 'Debugging with Delve'](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/DebuggingWithDelve/debugging_with_delve_1.mp4) and play around with some of the debug commands on the programs that you have written in Lab 1.
 
 ## Question 2 - Ping Pong :red_circle::white_circle::white_circle::white_circle::white_circle:
 
@@ -150,7 +150,7 @@ Running your `ping.go` should have generated a `trace.out` file. You can open th
 
 Explain how the trace relates to the code you have written.
 
-**WATCH THE VIDEO ON TRACING IN GO** - [it is available on Blackboard](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2022_TB-1/CONTENT_2022/tuts/TracingInGo/HowToMakeAtraceOfMultipleThreads.mp4)
+**WATCH THE VIDEO ON TRACING IN GO** - [it is available on Blackboard](https://www.ole.bris.ac.uk/bbcswebdav/courses/COMS20008_2023_TB-1/CONTENT_2023/tuts/TracingInGo/HowToMakeAtraceOfMultipleThreads.mp4)
 
 <details>
     <summary>Hint</summary>
